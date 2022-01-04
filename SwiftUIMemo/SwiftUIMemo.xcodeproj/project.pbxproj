@@ -19,6 +19,7 @@
 		549D14B82791B822005CEFE7 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D14B72791B822005CEFE7 /* Memo.swift */; };
 		549D14BA2791B8F5005CEFE7 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D14B92791B8F5005CEFE7 /* MemoStore.swift */; };
 		54FAC02C279998390088DAE9 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAC02B279998390088DAE9 /* TextView.swift */; };
+		54FAC02F279999F00088DAE9 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAC02E279999F00088DAE9 /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		549D14B72791B822005CEFE7 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		549D14B92791B8F5005CEFE7 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		54FAC02B279998390088DAE9 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		54FAC02E279999F00088DAE9 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		549D14A22791B53A005CEFE7 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				54FAC02D279999D70088DAE9 /* Shared */,
 				545F90E62796BEA200C50E3B /* Scene */,
 				545F90E02796BA8A00C50E3B /* Extension */,
 				549D14B62791B805005CEFE7 /* Model */,
@@ -121,6 +124,14 @@
 				549D14B92791B8F5005CEFE7 /* MemoStore.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		54FAC02D279999D70088DAE9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				54FAC02E279999F00088DAE9 /* KeyboardObserver.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			files = (
 				549D14AD2791B53D005CEFE7 /* Persistence.swift in Sources */,
 				549D14BA2791B8F5005CEFE7 /* MemoStore.swift in Sources */,
+				54FAC02F279999F00088DAE9 /* KeyboardObserver.swift in Sources */,
 				549D14B02791B53D005CEFE7 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				545F90E22796BAB400C50E3B /* DateFormatter+Memo.swift in Sources */,
 				549D14A62791B53A005CEFE7 /* MemoListScene.swift in Sources */,

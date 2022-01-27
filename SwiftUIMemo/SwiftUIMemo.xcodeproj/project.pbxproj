@@ -18,6 +18,7 @@
 		549D14B02791B53D005CEFE7 /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 549D14AE2791B53D005CEFE7 /* SwiftUIMemo.xcdatamodeld */; };
 		549D14B82791B822005CEFE7 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D14B72791B822005CEFE7 /* Memo.swift */; };
 		549D14BA2791B8F5005CEFE7 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D14B92791B8F5005CEFE7 /* MemoStore.swift */; };
+		54C7219327A34D880011BE0B /* DetailScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C7219227A34D880011BE0B /* DetailScene.swift */; };
 		54FAC02C279998390088DAE9 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAC02B279998390088DAE9 /* TextView.swift */; };
 		54FAC02F279999F00088DAE9 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAC02E279999F00088DAE9 /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		549D14AF2791B53D005CEFE7 /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
 		549D14B72791B822005CEFE7 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		549D14B92791B8F5005CEFE7 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		54C7219227A34D880011BE0B /* DetailScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScene.swift; sourceTree = "<group>"; };
 		54FAC02B279998390088DAE9 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		54FAC02E279999F00088DAE9 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				545F90E32796BDAE00C50E3B /* View */,
 				549D14A52791B53A005CEFE7 /* MemoListScene.swift */,
 				545F90E72796BEE700C50E3B /* ComposeScene.swift */,
+				54C7219227A34D880011BE0B /* DetailScene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				54FAC02F279999F00088DAE9 /* KeyboardObserver.swift in Sources */,
 				549D14B02791B53D005CEFE7 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				545F90E22796BAB400C50E3B /* DateFormatter+Memo.swift in Sources */,
+				54C7219327A34D880011BE0B /* DetailScene.swift in Sources */,
 				549D14A62791B53A005CEFE7 /* MemoListScene.swift in Sources */,
 				549D14A42791B53A005CEFE7 /* SwiftUIMemoApp.swift in Sources */,
 				549D14B82791B822005CEFE7 /* Memo.swift in Sources */,

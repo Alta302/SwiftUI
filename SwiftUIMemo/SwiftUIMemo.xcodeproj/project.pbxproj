@@ -99,6 +99,7 @@
 		549D14A22791B53A005CEFE7 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				54D7C67E27AA906900F9C86B /* DB */,
 				54FAC02D279999D70088DAE9 /* Shared */,
 				545F90E62796BEA200C50E3B /* Scene */,
 				545F90E02796BA8A00C50E3B /* Extension */,
@@ -106,7 +107,6 @@
 				549D14A32791B53A005CEFE7 /* SwiftUIMemoApp.swift */,
 				549D14A72791B53D005CEFE7 /* Assets.xcassets */,
 				549D14AC2791B53D005CEFE7 /* Persistence.swift */,
-				549D14AE2791B53D005CEFE7 /* SwiftUIMemo.xcdatamodeld */,
 				549D14A92791B53D005CEFE7 /* Preview Content */,
 			);
 			path = SwiftUIMemo;
@@ -127,6 +127,14 @@
 				549D14B92791B8F5005CEFE7 /* MemoStore.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		54D7C67E27AA906900F9C86B /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				549D14AE2791B53D005CEFE7 /* SwiftUIMemo.xcdatamodeld */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 		54FAC02D279999D70088DAE9 /* Shared */ = {

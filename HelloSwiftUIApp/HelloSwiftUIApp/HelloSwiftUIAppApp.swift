@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-class Model: ObservableObject {
-    
-}
-
 @main
 struct HelloSwiftUIAppApp: App {
-    @StateObject private var model = Model()
-    
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environmentObject(model)
-        }
+            MyScene()
     }
 }
 
-class AppDelegate: NSObject, UIApplicationDelegate {
-    
+struct MyScene: Scene {
+    @Environment(\.scenePhase) private var scenePhase
+     
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+        .onChange(of: scenePhase) { phase in
+            if phase == .background {
+                
+            }
+        }
+    }
 }

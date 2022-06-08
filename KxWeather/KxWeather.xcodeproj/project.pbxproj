@@ -19,6 +19,8 @@
 		54C603882850B1E50082F57A /* WeatherContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C603872850B1E50082F57A /* WeatherContentView.swift */; };
 		54C6038A2850B2A50082F57A /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C603892850B2A50082F57A /* CurrentWeatherView.swift */; };
 		54C6038D2850B3220082F57A /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6038C2850B3220082F57A /* ForecastView.swift */; };
+		54C6038F2850DEF90082F57A /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6038E2850DEF90082F57A /* WeatherService.swift */; };
+		54C603912850E03F0082F57A /* WeatherService+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C603902850E03F0082F57A /* WeatherService+Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		54C603872850B1E50082F57A /* WeatherContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherContentView.swift; sourceTree = "<group>"; };
 		54C603892850B2A50082F57A /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 		54C6038C2850B3220082F57A /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		54C6038E2850DEF90082F57A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		54C603902850E03F0082F57A /* WeatherService+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherService+Location.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		54729CE7284F5E5A0071B18F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				54C6038E2850DEF90082F57A /* WeatherService.swift */,
+				54C603902850E03F0082F57A /* WeatherService+Location.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -195,8 +201,10 @@
 			files = (
 				54729CDB284F5DD30071B18F /* ContentView.swift in Sources */,
 				54C6038D2850B3220082F57A /* ForecastView.swift in Sources */,
+				54C6038F2850DEF90082F57A /* WeatherService.swift in Sources */,
 				54C603882850B1E50082F57A /* WeatherContentView.swift in Sources */,
 				54729CEF284F698C0071B18F /* Double+TemperatureString.swift in Sources */,
+				54C603912850E03F0082F57A /* WeatherService+Location.swift in Sources */,
 				54C6038A2850B2A50082F57A /* CurrentWeatherView.swift in Sources */,
 				54729CEB284F5E870071B18F /* MainView.swift in Sources */,
 				54C603862850B17A0082F57A /* BackgroundView.swift in Sources */,

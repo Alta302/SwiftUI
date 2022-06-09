@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct KxWeatherApp: App {
+    let service = WeatherService()
+    
     var body: some Scene {
         WindowGroup {
             MainView()
                 .preferredColorScheme(.dark)
+                .environmentObject(service)
         }
     }
 }

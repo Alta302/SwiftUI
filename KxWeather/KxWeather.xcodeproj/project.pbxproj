@@ -21,6 +21,7 @@
 		54C6038D2850B3220082F57A /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6038C2850B3220082F57A /* ForecastView.swift */; };
 		54C6038F2850DEF90082F57A /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6038E2850DEF90082F57A /* WeatherService.swift */; };
 		54C603912850E03F0082F57A /* WeatherService+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C603902850E03F0082F57A /* WeatherService+Location.swift */; };
+		54C603942851B5820082F57A /* String+WeatherSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C603932851B5820082F57A /* String+WeatherSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		54C6038E2850DEF90082F57A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		54C603902850E03F0082F57A /* WeatherService+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherService+Location.swift"; sourceTree = "<group>"; };
 		54C603922851B24E0082F57A /* GangnamStation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GangnamStation.gpx; sourceTree = "<group>"; };
+		54C603932851B5820082F57A /* String+WeatherSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+WeatherSymbol.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				54729CEE284F698C0071B18F /* Double+TemperatureString.swift */,
+				54C603932851B5820082F57A /* String+WeatherSymbol.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				54729CEF284F698C0071B18F /* Double+TemperatureString.swift in Sources */,
 				54C603912850E03F0082F57A /* WeatherService+Location.swift in Sources */,
 				54C6038A2850B2A50082F57A /* CurrentWeatherView.swift in Sources */,
+				54C603942851B5820082F57A /* String+WeatherSymbol.swift in Sources */,
 				54729CEB284F5E870071B18F /* MainView.swift in Sources */,
 				54C603862850B17A0082F57A /* BackgroundView.swift in Sources */,
 				54729CED284F685A0071B18F /* CurrentWeather.swift in Sources */,

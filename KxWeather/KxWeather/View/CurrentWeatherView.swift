@@ -8,39 +8,41 @@
 import SwiftUI
 
 struct CurrentWeatherView: View {
-    let model: CurrentWeather
+    let model: CurrentWeather?
     
     var body: some View {
         VStack(alignment: .leading) {
-            HStack {
-                Image(systemName: model.icon)
-                Text(model.weather)
-            }
-            .font(.largeTitle)
-            
-            HStack(spacing: 20) {
-                Label(model.maxTemparature, systemImage: "arrow.up")
-                Label(model.minTemparature, systemImage: "arrow.down")
-            }
-            
-            HStack(alignment: .lastTextBaseline) {
-                Text(model.temparature)
-                    .font(.system(size: 120))
-                    .fontWeight(.ultraLight)
-                    .minimumScaleFactor(0.5)
-                
-                Spacer()
-                
+            if let model = model {
                 HStack {
-                    Image(systemName: "sunrise.fill")
-                        .symbolRenderingMode(.multicolor)
-                    Text(model.sunrise)
-                    
-                    Image(systemName: "sunset.fill")
-                        .symbolRenderingMode(.multicolor)
-                    Text(model.sunset)
+                    Image(systemName: model.icon)
+                    Text(model.weather)
                 }
-                .font(.caption)
+                .font(.largeTitle)
+                
+                HStack(spacing: 20) {
+                    Label(model.maxTemparature, systemImage: "arrow.up")
+                    Label(model.minTemparature, systemImage: "arrow.down")
+                }
+                
+                HStack(alignment: .lastTextBaseline) {
+                    Text(model.temparature)
+                        .font(.system(size: 120))
+                        .fontWeight(.ultraLight)
+                        .minimumScaleFactor(0.5)
+                    
+                    Spacer()
+                    
+                    HStack {
+                        Image(systemName: "sunrise.fill")
+                            .symbolRenderingMode(.multicolor)
+                        Text(model.sunrise)
+                        
+                        Image(systemName: "sunset.fill")
+                            .symbolRenderingMode(.multicolor)
+                        Text(model.sunset)
+                    }
+                    .font(.caption)
+                }
             }
         }
         .foregroundColor(.white)

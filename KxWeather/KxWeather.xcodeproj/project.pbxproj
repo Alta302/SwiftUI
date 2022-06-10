@@ -25,6 +25,7 @@
 		54C603972851D19D0082F57A /* CodableCurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C603962851D19D0082F57A /* CodableCurrentWeather.swift */; };
 		54C6039928534CAE0082F57A /* WeatherService+Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6039828534CAE0082F57A /* WeatherService+Api.swift */; };
 		54C6039B28534FC80082F57A /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6039A28534FC80082F57A /* ApiError.swift */; };
+		54C6039D28535B4D0082F57A /* CodableForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6039C28535B4D0082F57A /* CodableForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		54C603962851D19D0082F57A /* CodableCurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableCurrentWeather.swift; sourceTree = "<group>"; };
 		54C6039828534CAE0082F57A /* WeatherService+Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherService+Api.swift"; sourceTree = "<group>"; };
 		54C6039A28534FC80082F57A /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		54C6039C28535B4D0082F57A /* CodableForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableForecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				54C603962851D19D0082F57A /* CodableCurrentWeather.swift */,
 				54C6039A28534FC80082F57A /* ApiError.swift */,
+				54C6039C28535B4D0082F57A /* CodableForecast.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C6039D28535B4D0082F57A /* CodableForecast.swift in Sources */,
 				54729CDB284F5DD30071B18F /* ContentView.swift in Sources */,
 				54C6038D2850B3220082F57A /* ForecastView.swift in Sources */,
 				54C6038F2850DEF90082F57A /* WeatherService.swift in Sources */,
